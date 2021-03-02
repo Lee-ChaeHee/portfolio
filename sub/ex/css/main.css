@@ -1,0 +1,72 @@
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.frame{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section01 {
+    height: 980px;
+    background: url("../img/bg01.jpg")no-repeat center;
+    background-size:cover;
+}
+
+
+#section01 .btn{
+    margin-left: 100px; /*x축 값을 설정해주세요*/
+    margin-top: 100px; /*y축 값을 설정해주세요*/
+}
+
+
+#section02 {
+    height: 980px; /*백그라운드로 넣은 이미지의 높이값을 적어주세요*/
+    background: url("../img/bg07.jpg")no-repeat center;
+    /*background-size:cover;*/
+    background-size:cover;
+}
+
+.video1{
+    margin-left: -350px; /*x축 값을 설정해주세요*/
+    margin-top: -334px; /*y축 값을 설정해주세요*/
+}
+
+#section03 {
+    height: 980px; /*백그라운드로 넣은 이미지의 높이값을 적어주세요*/
+    background: url("../img/bg08.jpg")no-repeat center;
+    background-size:cover;
+}
+
+
+.video2{
+    /*비디오의 영역이 frame을 초과할 경우 width,height를 입력해주세요*/
+    width: 330px; /*위에 올라온 frame의 좌우값*/
+    height: 692px; /*위에 올라온 frame의 높값*/
+    margin-left: 65px; /*x축 값을 설정해주세요*/
+    margin-top: -323px; /*y축 값을 설정해주세요*/
+}
+
+#section04 {
+    height: 980px; /*백그라운드로 넣은 이미지의 높이값을 적어주세요*/
+    background: url("../img/bg09.jpg")no-repeat center;
+    background-size:cover;
+}
+
+
+
+
+
+
+

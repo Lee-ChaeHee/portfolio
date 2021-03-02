@@ -1,0 +1,160 @@
+/* visual */
+.slider {
+    position:relative;
+    height:424px;
+}
+.img_wrap {
+    width:8192px; /* 1024 * 8 */
+    height:424px;
+    position:absolute;
+    left:-1024px;
+    top:0;
+}
+.img_box {
+    width:1024px;
+    height:424px;
+    background:url(../img/img01.jpg) no-repeat center top;
+    position:relative;
+    float:left;
+}
+.img_box.v1 {background-image:url(../img/img01.jpg);}
+.img_box.v2 {background-image:url(../img/img02.jpg);}
+.img_box.v3 {background-image:url(../img/img03.jpg);}
+.img_box.v4 {background-image:url(../img/img04.jpg);}
+.img_box.v5 {background-image:url(../img/img05.jpg);}
+.img_box.v6 {background-image:url(../img/img06.jpg);}
+.img_box.v7 {background-image:url(../img/img07.jpg);}
+.img_box.v8 {background-image:url(../img/img08.jpg);}
+
+.img_box a {
+    display:block;
+    width:1024px;
+    height:424px;
+}
+.img_box .txt_box {
+    position:absolute;
+    right:65px;
+    top:88px;
+}
+
+.slider .prev, 
+.slider .next {
+    background:url(../img/mainSlider_arrow.png) no-repeat;
+    position:absolute;
+    z-index:10;
+    width:44px;
+    height:63px;
+    border:none;
+    text-indent:-9999px;
+    overflow:hidden;
+    top:190px;
+    cursor:pointer;
+}
+.slider .prev {
+    left:0;
+    background-position:left bottom;
+}
+.slider .next {
+    right:0;
+    background-position:left top;
+}
+
+.slider .indicator {
+    position:absolute;
+    z-index:5;
+    left:0;
+    bottom:41px;
+    text-align:center;
+    width:100%;
+}
+.slider .indicator .indi {
+    display:inline-block;
+    vertical-align:middle;
+}
+.slider .indicator .indi li,
+.slider .indicator .btnAuto {
+    width:10px;
+    height:10px;
+    text-indent:-9999px;
+    overflow:hidden;
+    border:none;
+    cursor:pointer;
+}
+.slider .indicator .indi li {
+    float:left;
+    background:url(../img/slid-icon.png) no-repeat;
+    margin-right:10px;
+}
+.slider .indicator .indi .on {
+    background:url(../img/slidOn-icon.png) no-repeat;
+    width:45px;
+}
+.slider .indicator .btnAuto {
+    display:inline-block;
+    background:url(../img/slidStop-icon.png) no-repeat;
+    /* position:relative;
+    top:5px; */
+    vertical-align:middle;
+}
+
+.w_bg {
+    width:1024px;
+    height:424px;
+    background-color:rgba(255,255,255,0.5);
+    position:absolute;
+    z-index:5;
+}
+.w_left {left:-1024px;}
+.w_right {right:-1024px;}  /* left:1024px;*/
+
+
+/* mainContents */
+.mbox {
+    width:333px;
+    height:188px;
+    border:1px solid #d5d5d5;
+    float:left;
+    margin-right:8px;
+    position:relative;
+}
+.mboard {
+    width:505px;
+    margin-bottom:10px;
+}
+.mr_none {margin-right:0;}
+.mbox h3 {
+    margin-top:30px;
+    margin-left:25px;
+}
+.mbox .mb_list {
+    margin:25px;
+}
+.mbox .mb_list li {
+    background:url(../img/bul_pink.gif) no-repeat left center;
+    padding-left:10px;
+    margin-bottom:8px;
+}
+.mbox .mb_list li a {
+    color:#666;
+}
+.mbox .mb_list li a:hover {
+    text-decoration:underline;
+}
+.mbox .more {
+    background:url(../img/btn_more.gif) no-repeat;
+    width:27px;
+    height:27px;
+    position:absolute;
+    text-indent:-9999px;
+    overflow:hidden;
+    top:25px;
+    right:20px;
+}
+
+
+
+
+
+
+
+

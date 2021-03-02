@@ -1,0 +1,89 @@
+/* login */
+.login_wrap {
+    width:782px;
+    height:368px;
+    background-color:#f8f8f8;
+    border:1px solid #dedede;
+    border-radius:3px;
+    margin:0 auto;
+}
+.login_area {
+    height:224px;
+    border-bottom:1px solid #dedede;
+}
+.login_box {
+    width:471px;
+    margin:0 auto;
+    padding-top:40px;
+}
+.login_form {}
+.login_form .line {
+    float:left;
+    width:306px;
+    height:35px;
+    margin-right:21px;
+}
+.login_form .line label {
+    width:94px;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-top:5px;
+}
+.login_form .line input {
+    width:210px;
+    height:24px;
+    border:1px solid #e5e5e3;
+    border-radius:2px;
+    float:left;
+}
+.login_form .btn_login {
+    float:left;
+    width:108px;
+    height:60px;
+    background-color:#c10c3f;
+    border:1px solid #a6012c;
+    border-radius:2px;
+    color:#fff;
+    font-weight:bold;
+    font-family:"돋움",dotum,sans-serif;
+    margin-top:-35px;
+}
+
+.login_box .link {
+    clear:both;
+    margin-top:22px;
+}
+.login_box .link li {}
+.login_box .link li span {
+    float:left;
+    color:#666;
+    width:327px;
+    line-height:21px;
+}
+.login_box .link li a {
+    padding:0 24px 0 10px;
+    border:1px solid #e5e5e5;
+    line-height:19px;
+    float:left;
+    color:#666;
+    font-size:11px;
+    background:url(../img/arr3.png) no-repeat #fff right center;
+    margin-bottom:7px;
+}
+
+.etc {
+    margin:30px;
+}
+.etc li {
+    background:url(../img/dotType2.gif) no-repeat left 5px;
+    padding-left:15px;
+    color:#666;
+    margin-bottom:14px;
+}
+.etc li strong {
+    color:#c40352;
+}
+
+
+
